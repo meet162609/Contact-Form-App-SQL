@@ -7,8 +7,8 @@ const PORT = 4000;
 // MySQL connection
 const db = mysql.createConnection({
   host: 'localhost',
-  user: 'nodeuser',
-  password: 'StrongPassword123!',
+  user: 'debian-sys-maint',
+  password: 'uJbrUm9IWOYtDSoW',
   database: 'demo_db'
 });
 
@@ -42,5 +42,5 @@ app.get('/contacts', (req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`Server running on http://13.204.45.180:${PORT}`);
+  console.log(`Server running on http://43.205.142.116:${PORT}`);
 });
